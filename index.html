@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Coffee Haven</title>
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="light"> <!-- Default to light theme -->
+    <header>
+        <button id="themeToggle" aria-label="Toggle dark mode">
+            <i class="fas fa-moon"></i> <!-- Default icon (dark mode) -->
+        </button>
+        <div id="clock" class="real-time-clock"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Welcome to Coffee Haven</h1>
+        <p>Your cozy spot for the finest coffee and treats.</p>
+    </section>
+    
+    <main class="container">
+        <section class="intro">
+            <h2>Our Story</h2>
+            <p>Discover our passion for coffee and our journey in crafting the perfect cup.</p>
+        </section>
+        <aside class="sidebar">
+            <h2>Today's Specials</h2>
+            <p>Check out our freshly brewed specials and delicious pastries.</p>
+        </aside>
+
+        <section class="faq-section">
+            <h2>FAQs</h2>
+            <div class="faq-item">
+                <h3 class="question">What makes your coffee special?</h3>
+                <p class="answer">We source directly from ethical growers and roast in small batches daily.</p>
+            </div>
+            <div class="faq-item">
+                <h3 class="question">Do you offer dairy alternatives?</h3>
+                <p class="answer">Yes! We have oat, almond, and soy milk options available.</p>
+            </div>
+        </section>
+        <section class="team-section">
+            <h2>View Team Members</h2>
+            <button id="loadUsersBtn" class="btn">Load Team Members</button>
+            <ul id="userList" class="team-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Coffee Haven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
